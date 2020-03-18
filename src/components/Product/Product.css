@@ -1,0 +1,19 @@
+.products {
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+    padding: 20px;
+}
+
+.products img {
+    padding: 20px;
+}
+
+.btn {
+    background: goldenrod;
+    border: 1px solid greenyellow;
+    padding: 8px;
+    width: 200px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
