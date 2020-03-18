@@ -5,7 +5,7 @@ const Cart = (props) => {
     const cart = props.cart
     const singleItemPrice = cart.reduce((accumulator, product) => accumulator + product.price, 0)
     const itemPrice = singleItemPrice * cart.quantity
-    debugger
+
     let shipping = 0;
     if (itemPrice > 200) {
         shipping = 3.99
